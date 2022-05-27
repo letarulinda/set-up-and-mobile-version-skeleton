@@ -14,7 +14,10 @@ CSS
 
 ## Author
 
-Letaru Linda Masia
+👤 Letaru Linda Masia
+
+- GitHub: https://github.com/letarulinda
+- LinkedIn: https://www.linkedin.com/in/linda-letaru-masia-7b48a9175/
 
 ## 📝 License
 
