@@ -1,11 +1,11 @@
 
 body {
- margin: 0;
-padding: 0;
-  }
-  p, h1, h2, h3, h4, h5, h6, a{
   margin: 0;
   padding: 0;
+  }
+  p, h1, h2, h3, h4, h5, h6, a{
+      margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -16,13 +16,13 @@ padding: 0;
 
 .heading1 {
   font-style: normal;
-font-size: 40px;
-font-family: poppins;
-color: #172b4d;
-padding-top: 30%;
-padding-left: 24px;
-padding-right: 24px;
-padding-bottom: 16px;
+ font-size: 40px;
+ font-family: 'Times New Roman', Times, serif;
+ color: #172b4d;
+ padding-top: 30%;
+ padding-left: 24px;
+ padding-right: 24px;
+ padding-bottom: 16px;
 
 }
 
@@ -34,7 +34,7 @@ padding-bottom: 16px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 24px;
-padding-right: 24px;
+ padding-right: 24px;
 
 }
 
@@ -50,11 +50,11 @@ padding-right: 24px;
 
 .intro-wrapper {
 
-background-image: url(/assets/header-shapes\ mobile.svg);
-height: 100vh;
-background-repeat: no-repeat;
-background-position: 100% 60%;
-color: #172b4d;
+ background-image: url(/assets/header-shapes\ mobile.svg);
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-position: 100% 60%;
+ color: #172b4d;
 
 }
 
