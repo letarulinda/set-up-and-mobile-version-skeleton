@@ -1,21 +1,20 @@
 
-body{
-  margin: 0;
-  padding: 0;
+body {
+ margin: 0;
+padding: 0;
   }
   p, h1, h2, h3, h4, h5, h6, a{
   margin: 0;
   padding: 0;
 }
 
-.logo{
-color: #6070FF;
-
-margin-right: 300px;
+.logo {
+  color: #6070ff;
+  margin-right: 300px;
 
 }
-.heading1{
-font-style: normal;
+.heading1 {
+  font-style: normal;
 
 font-size: 40px;
 
@@ -33,7 +32,7 @@ padding-bottom: 16px;
 
 }
 
-.content{
+.content {
   font-family: poppins;
 
   font-style: normal;
@@ -50,7 +49,7 @@ padding-right: 24px;
 
 }
 
-.suggestion-comment{
+.suggestion-comment {
   font-style: normal;
 
   font-weight: 500;
@@ -62,7 +61,7 @@ padding-right: 24px;
   color: #7F8CFF;
 
 }
-.intro-wrapper{
+.intro-wrapper {
 background-image: url(/assets/header-shapes\ mobile.svg);
 
 height: 100vh;
@@ -71,11 +70,11 @@ background-repeat: no-repeat;
 
 background-position: 100% 60%;
 
-color: #172B4D;
+color: #172b4d;
 
 }
 
-header{
+header {
   position: fixed;
 
   top: 0;
@@ -97,7 +96,7 @@ header{
   background-color: #fff;
 }
 
-.social-media-links{
+.social-media-links {
   position: absolute;
 
   padding-right: 24px;
