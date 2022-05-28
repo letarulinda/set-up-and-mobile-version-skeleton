@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 p,
@@ -17,4 +18,53 @@ a {
 
 .logo {
   color: #6070ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  padding-bottom: 140px;
+}
+
+.social-links li {
+  margin-right: 19px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.intro-wrapper {
+  background: url(./assets/header-shapes\ mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+  margin-bottom: 12px;
+  padding-top: 100px;
+}
+
+.content {
+  color: #344563;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.suggegiion-comment {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  margin-bottom: 12px;
 }
