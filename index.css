@@ -72,9 +72,8 @@ h1,
 
 .works-section {
   padding: 114px 24px 88px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 100%;
   gap: 88px;
   background-color: #f7f7f9;
 }
@@ -212,6 +211,8 @@ h1,
 
 .languages-container {
   margin-top: 30px;
+  padding-left: 0;
+  list-style: none;
 }
 
 .about-skills-container {
