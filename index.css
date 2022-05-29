@@ -84,7 +84,7 @@ h1,
   align-items: center;
   padding: 16px;
   gap: 12px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -105,7 +105,7 @@ h1,
 }
 
 .works-article-about h3 {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -119,7 +119,7 @@ h1,
 }
 
 .article-work-details span {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -129,7 +129,7 @@ h1,
 
 .article-work-details ul {
   display: flex;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -139,7 +139,7 @@ h1,
 }
 
 .works-article-about p {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -148,7 +148,7 @@ h1,
 }
 
 .works-languages {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -173,7 +173,7 @@ h1,
 
 .works-article-about button,
 .btn-border {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -185,7 +185,7 @@ h1,
   color: #396df2;
   padding: 12px;
   margin-bottom: 12px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #6070ff;
   border-radius: 16px;
   width: max-content;
@@ -223,7 +223,7 @@ h1,
 }
 
 .about-skills-container h3 {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -252,7 +252,7 @@ h1,
 }
 
 .language-item span {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
