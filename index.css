@@ -111,6 +111,7 @@ h1,
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  display: flex;
 }
 
 .article-work-details {
@@ -193,6 +194,7 @@ h1,
 
 .about-section {
   background: #f7f7f9;
+  display: flex;
 }
 
 .about-background {
