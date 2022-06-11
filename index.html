@@ -24,14 +24,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav-class">
         <a class="logo"> My Logo</a>
-        <img src="assets/Union.jpg" alt="menu-bar" />
+        <img class="image-class" src="assets/Union.jpg" alt="menu-bar" />
+        <ul class="nav-items">
+          <li class="portfolio-item">portfolio</li>
+          <li class="portfolio-item">About</li>
+          <li class="portfolio-item">contact</li>
+        </ul>
       </nav>
     </header>
 
@@ -185,10 +190,10 @@
           <br />Myself
         </h2>
         <p class="content">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
         </p>
         <p class="suggegiion-comment">LET’S CONNECT</p>
         <ul class="social-links">
@@ -250,6 +255,48 @@
           </li>
         </ul>
       </div>
+    </section>
+    <section class="contact-form">
+      <h4>Contact me</h4>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form method="POST" action="https://formspree.io/f/xqknjpgp">
+        <ul class="form-ul">
+          <li>
+            <input
+              type="text"
+              name="name"
+              id="user-name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </li>
+          <li>
+            <input
+              type="email"
+              name="email"
+              id="email-address"
+              placeholder="Please Enter your E-mail"
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              name="message"
+              id="msg"
+              maxlength="500"
+              placeholder="Enter Your Message Here"
+              required
+            ></textarea>
+          </li>
+          <li>
+            <button type="submit">Get In Touch</button>
+          </li>
+        </ul>
+      </form>
     </section>
   </body>
 </html>
